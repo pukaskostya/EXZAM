@@ -1,0 +1,160 @@
+body {
+  background-color: #f2f2f2;
+}
+.title{
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+}
+
+.padding-section {
+  padding-bottom: 80px;
+}
+
+@media (max-width: 768px) {
+  .padding-section {
+    padding-bottom: 30px;
+  }
+}
+
+.navbar-brand img{
+  max-width: 150px;
+}
+
+.nav-align{
+  justify-content: end;
+}
+
+.carousel-text {
+  position: absolute;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.41);
+  width: 100%;
+}
+
+.flag {
+  color: black;
+  width: 50px;
+  height: 70px;
+  z-index: 3;
+  margin-right: 20px;
+}
+
+.text-align-container{
+  display: flex;
+  padding: 0 200px;
+
+}
+
+@media (max-width: 768px) {
+  .text-align-container {
+    padding: 0;
+  }
+}
+
+.flag-top-color {
+  width: 20px;
+  height: 100px;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+}
+
+.flag-bottom-color {
+  width: 20px;
+  height: 100px;
+  border: 1px solid rgb(24, 61, 243);
+  background-color: rgb(24, 61, 243);
+}
+
+.flag-bottom-color-2 {
+  width: 20px;
+  height: 100px;
+  border: 1px solid rgb(243, 24, 24);
+  background-color: rgb(243, 24, 24);
+}
+
+@media (max-width: 768px) {
+  .flag-top-color, .flag-bottom-color {
+    width: 10px;
+    height: 50px;
+  }
+}
+
+.main-text {
+  height: 100%;
+  z-index: 100;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .main-text {
+    font-size: 18px;
+  }
+}
+
+.carousel-item {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card-img, .card-img-top{
+  height: 200px;
+}
+
+.ukraine-map {
+  max-width: 320px;
+}
+
+@media (max-width: 768px) {
+  .ukraine-map {
+    max-width: 200px;
+  }
+}
+
+.button-donate{
+  padding: 20px 50px;
+
+}
+
+.footer-logo {
+  max-width: 200px;
+}
+.copyright{
+  width:100%;
+  margin:30px 0 10px 0;
+}
+
+.copyright a{
+  color: white;
+}
+
+.zamok {
+  display: flex;
+  margin-bottom: 30px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid black;
+}
+
+.animate__animated {
+  --animate-duration: 2s;
+}
+
+.adg:hover {
+  transition: all .1s ease;
+  scale: 1.06;
+}
